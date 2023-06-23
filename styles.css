@@ -1,0 +1,86 @@
+html, body{
+    padding:0;
+    margin:0;
+
+}
+.navbar{
+    background-color: aqua;
+    padding:12px 14px;
+    color: black;
+}
+.navbar a{
+    margin-right: 11px;
+}
+.navbar a:hover
+{
+    color: gold;
+    padding: 12px 14px;
+}
+header{
+    display:flex;
+    text-align: center;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    background-color: burlywood;
+}
+.About{
+    margin-top: 20px;
+}
+.About h1
+{
+    text-align: center;
+}
+.About img{
+    max-width: 390px;
+
+}
+.About p
+{
+    font-size: 28px;
+}
+.About .content
+{
+    display: flex;
+    gap: 5px;
+}
+.About button
+{
+    margin-left: 20px;
+    color: black;
+    background-color: chocolate;
+}
+.services h1
+{
+    text-align: center;
+}
+.card
+{
+    padding:15px 20px;
+    background-color: antiquewhite;
+    margin:40px;
+    border: solid black;
+    
+}
+.container
+{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.project h1
+{
+    text-align: center;
+}
+.contact h1
+{
+    text-align: center;
+}
+.input
+{
+    margin: 0px 300px;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    margin-bottom: 5px;
+}
